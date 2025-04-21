@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA211 - Groupe 3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .blog-description {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        figure {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        figure:hover {
+            transform: translateY(-5px);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+        }
+        figcaption {
+            margin-top: 15px;
+            font-style: italic;
+            color: #34495e;
+            text-align: center;
+            padding: 5px;
+        }
+        @media (max-width: 768px) {
+            .gallery-container {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GTA211 - Travail final - Groupe 3</h1>
+        <p class="blog-description">Travail de fin de session d'hiver</p>
+    </header>
+    
+    <section class="team-banner">
+        <div class="team-info">
+            <h2>Équipe</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Ilias Dorhmi</h3>
+                    <p>Développeur frontend et visuel</p>
+                </div>
+                <div class="team-member">
+                    <h3>Benjamin Vantongelen</h3>
+                    <p>Récupération de donnée et traitement</p>
+                </div>
+                <div class="team-member">
+                    <h3>Léo Rémillard</h3>
+                    <p>Interprétation</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="note-container">
+            <div class="note top-note">
+                <h3>Note importante:</h3>
+                <p>En raison de difficultés techniques rencontrées avec la plateforme WordPress, notre équipe a pris l'initiative de développer cette page entièrement en HTML/CSS. Cette décision a été possible grâce à la présence de deux développeurs au sein de notre groupe, nous permettant ainsi de présenter notre contenu sous une forme professionnelle et conforme aux exigences du projet, tout en démontrant nos compétences techniques.</p>
+            </div>
+        </div>
+    </section>
+    
+    <div class="gallery-container">
+        <figure>
+            <img src="Assets/Capture3.PNG" alt="Capture 3">
+            <figcaption>Analyse graphique structurelle montrant la répartition des données par catégories. Ce graphique illustre clairement les tendances principales avec un code couleur efficient facilitant la distinction entre les différents segments. L'équilibre visuel et la précision des données en font un outil décisionnel performant.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Capture (1).PNG" alt="Capture 1">
+            <figcaption>Diagramme comparatif présentant l'évolution temporelle des métriques clés. On observe une progression significative dans le quadrant supérieur droit, indiquant une corrélation positive entre les variables étudiées. La visualisation permet d'identifier rapidement les anomalies et points d'inflexion importants.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Capture 2.PNG" alt="Capture 2">
+            <figcaption>Représentation visuelle des relations entre différents paramètres d'analyse. Ce graphique multidimensionnel offre une perspective approfondie sur l'interaction des variables, mettant en évidence les clusters de données et les valeurs aberrantes. L'optimisation des axes améliore considérablement la lisibilité des résultats.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Image générée (1).png" alt="Image générée 1">
+            <figcaption>Visualisation générée par intelligence artificielle illustrant la distribution probabiliste des résultats. Les nuances chromatiques représentent les différents niveaux de confiance, tandis que les contours délimitent les zones de prédiction. Cette approche innovante permet d'anticiper les tendances futures avec une précision remarquable.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Image générée (2).png" alt="Image générée 2">
+            <figcaption>Modélisation algorithmique des patterns émergents dans l'ensemble de données. Les formes géométriques complexes traduisent visuellement les corrélations non-linéaires entre variables, offrant ainsi une nouvelle perspective analytique. Cette représentation favorise l'identification de relations qui échapperaient aux méthodes traditionnelles.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Image générée (3).png" alt="Image générée 3">
+            <figcaption>Cartographie thermique des intensités de corrélation entre facteurs d'influence. L'échelle colorimétrique permet d'évaluer instantanément la force des relations, tandis que la disposition spatiale reflète la proximité conceptuelle des éléments. Cette visualisation constitue un outil précieux pour la prise de décision stratégique.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Image générée (4).png" alt="Image générée 4">
+            <figcaption>Projection multivariée des tendances observées à travers différentes dimensions d'analyse. Les trajectoires visualisées révèlent des motifs cycliques et des points de convergence significatifs. Cette représentation synthétique permet d'appréhender la complexité des phénomènes étudiés tout en préservant leur structure fondamentale.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Assets/Image générée.png" alt="Image générée">
+            <figcaption>Synthèse visuelle des principaux indicateurs de performance analysés dans cette étude. Cette représentation holistique intègre l'ensemble des dimensions examinées, offrant ainsi une vue d'ensemble cohérente et accessible. Le design épuré privilégie l'efficacité communicationnelle sans sacrifier la richesse informationnelle.</figcaption>
+        </figure>
+    </div>
+    
+    <section class="evaluation-section">
+        <h2>Méthodologie et Critères d'Évaluation</h2>
+        
+        <div class="criteria">
+            <h3>Éléments considérés pour la correction:</h3>
+            <ul>
+                <li>Clarté de l'information</li>
+                <li>Design de l'article (oui, la qualité du français est importante!)</li>
+                <li>Qualité de l'information extraite</li>
+                <li>Pertinence de l'analyse et des conclusions</li>
+            </ul>
+        </div>
+        
+        <div class="submission">
+            <h3>Date de remise:</h3>
+            <p>21 avril 2025</p>
+            
+            <h3>À remettre sur Moodle:</h3>
+            <ul>
+                <li>Impression PDF de l'article</li>
+                <li>Lien vers l'article Wordpress</li>
+                <li>Numéro d'équipe et liste des membres de l'équipe</li>
+            </ul>
+        </div>
+    
+    </section>
+
+    <style>
+        .evaluation-section {
+            background: white;
+            max-width: 1200px;
+            margin: 40px auto 20px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .evaluation-section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .evaluation-section h3 {
+            color: #3498db;
+            margin: 20px 0 10px;
+        }
+        
+        .evaluation-section ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .evaluation-section li {
+            margin-bottom: 5px;
+        }
+        
+        .criteria, .submission, .note {
+            margin-bottom: 25px;
+        }
+        
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        
+        .note h3 {
+            margin-top: 0;
+        }
+    </style>
+</body>
+</html>
